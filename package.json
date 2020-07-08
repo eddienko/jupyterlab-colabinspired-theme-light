@@ -1,7 +1,7 @@
 {
   "name": "@eddienko/jupyterlab-colabinspired-theme-light",
   "version": "0.1.0",
-  "description": "A jupyterLab theme extension.",
+  "description": "A jupyterLab theme extension inspired in Colab",
   "author": "Eduardo Gonzalez Solares <e.gonzalezsolares@gmail.com>",
   "keywords": [
     "jupyter",
@@ -60,6 +60,6 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/eddienko/jupyterlab-colabinspired-theme-light"
   }
 }

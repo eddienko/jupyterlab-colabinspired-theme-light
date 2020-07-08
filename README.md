@@ -1,6 +1,6 @@
-# myorg/jupyterlab-colab-theme
+# @eddienko/jupyterlab-colabinspired-theme-light
 
-A JupyterLab theme extension.
+A JupyterLab theme extension inspired in Colab.
 
 ## Prerequisites
 
@@ -9,7 +9,7 @@ A JupyterLab theme extension.
 ## Installation
 
 ```bash
-jupyter labextension install myorg/jupyterlab-colab-theme
+jupyter labextension install @eddienko/jupyterlab-colabinspired-theme-light
 ```
 
 ## Development

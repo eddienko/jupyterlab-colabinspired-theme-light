@@ -18,6 +18,7 @@ pre {
 
 
 .jp-Cell .ccb-cellFooterContainer {
+    display: flex;
     border: 1px solid silver;
 }
 

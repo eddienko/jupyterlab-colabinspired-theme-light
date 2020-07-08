@@ -8,8 +8,8 @@ import { IThemeManager } from '@jupyterlab/apputils';
 /**
  * A plugin for eddienko/jupyterlab-colabinspired-theme
  */
-const plugin: JupyterFrontEndPlugin<void> = {
-  id: '@eddienko/jupyterlab-colab-theme:plugin-light',
+const colabTheme: JupyterFrontEndPlugin<void> = {
+  id: '@eddienko/jupyterlab-colabinspired-themelight:plugin-light',
   requires: [IThemeManager],
   activate: function(app: JupyterFrontEnd, manager: IThemeManager) {
     const style = '@eddienko/jupyterlab-colabinspired-theme-light/index.css';
@@ -24,4 +24,13 @@ const plugin: JupyterFrontEndPlugin<void> = {
   autoStart: true
 };
 
-export default plugin;
+
+/**
+ * Export this plugins as default.
+ */
+const plugins: Array<JupyterFrontEndPlugin<any>> = [
+  colabTheme
+];
+
+export default plugins;
+
