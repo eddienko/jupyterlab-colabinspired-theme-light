@@ -1,6 +1,9 @@
 # @eddienko/jupyterlab-colabinspired-theme-light
 
-A JupyterLab theme extension inspired in Colab.
+A JupyterLab theme extension inspired in Colab. The theme adds a drop shadow to the active cell.
+
+![Cell Screenshot](screenshot.png)
+
 
 ## Prerequisites
 
