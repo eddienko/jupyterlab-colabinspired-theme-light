@@ -15,6 +15,9 @@ A JupyterLab theme extension inspired in Colab. The theme adds a drop shadow to 
 jupyter labextension install @eddienko/jupyterlab-colabinspired-theme-light
 ```
 
+In order to display the cell buttons on each cell you need to install as well
+[@eddienko/jupyterlab-colabinspired-codecellbtn](https://github.com/eddienko/jupyterlab-colabinspired-codecellbtn)
+
 ## Development
 
 For a development install (requires npm version 4 or later), do the following in the repository directory:
