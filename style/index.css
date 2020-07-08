@@ -1,0 +1,173 @@
+/*-----------------------------------------------------------------------------
+| Copyright (c) Jupyter Development Team.
+| Distributed under the terms of the Modified BSD License.
+|----------------------------------------------------------------------------*/
+
+@import './variables.css';
+
+/* Set the default typography for monospace elements */
+tt,
+code,
+kbd,
+samp,
+pre {
+  font-family: var(--jp-code-font-family);
+  font-size: var(--jp-code-font-size);
+  line-height: var(--jp-code-line-height);
+}
+
+
+.jp-Cell .ccb-cellFooterContainer {
+    border: 1px solid silver;
+}
+
+.jp-Cell .ccb-cellFooterBtn {
+    color: #fff;
+    opacity: 0.7;
+    font-size: 0.65rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    padding: 4px 8px;
+    margin: 0.2rem 0;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    outline: none;
+    cursor: pointer;
+    user-select: none;
+
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.jp-Cell .ccb-cellFooterBtn:active {
+    background-color: var(--md-blue-600);
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.jp-Cell .ccb-cellFooterBtn:hover {
+    background-color: var(--md-blue-500);
+    opacity: 1;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: var(--jp-elevation-z2);
+}
+
+.jp-Cell .ccb-cellFooterBtn {
+    background: var(--md-blue-400);
+}
+
+.jp-CodeCell {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.jp-CodeCell .jp-CellFooter {
+    height: auto;
+    order: 2;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: -0.5em;
+    z-index: 99;
+    width: auto;
+    right: 20px;
+}
+
+
+
+.jp-Cell .ccb-cellFooterBtn {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: white;
+}
+
+.jp-Cell .ccb-cellFooterBtn:hover {
+    background-color: #dddddd;
+    box-shadow: none;
+}
+
+.jp-Notebook .jp-CodeCell > .jp-CellFooter {
+    display: none!important;
+}
+
+.jp-Notebook .jp-CodeCell:hover > .jp-CellFooter {
+    display: inline!important;
+}
+
+.jp-Cell .jp-Cell-inputWrapper {
+    margin-top: 5px;
+}
+
+.jp-CodeCell .jp-Cell-outputWrapper {
+    order: 4;
+}
+
+.jp-Notebook .jp-Cell.jp-mod-selected {
+    -webkit-box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.jp-Notebook .jp-CodeCell > .jp-Cell-inputWrapper {
+    background-color: #f0f0f0;
+}
+
+.jp-Notebook .jp-CodeCell.jp-mod-selected > .jp-Cell-inputWrapper {
+    background-color: #dddddd;
+}
+
+.jp-Collapser {
+    display: none;
+}
+
+.jp-Notebook .jp-Cell.jp-mod-active .jp-Cell-inputWrapper .jp-Collapser {
+    background-color: #dddddd;
+}
+
+.jp-Notebook .jp-Cell.jp-mod-active .jp-Cell-outputWrapper .jp-Collapser {
+    background-color: #ffffff;
+}
+
+.jp-Notebook .jp-Cell {
+    margin: 1em 0em;
+    padding: 0px;
+}
+
+.jp-Notebook.jp-mod-editMode .jp-Cell.jp-mod-active .jp-InputArea-editor {
+    border: none;
+    box-shadow: none;
+    background-color: #f9f9f9;
+}
+
+.jp-Notebook .jp-Cell .jp-InputArea-editor {
+    border: none;
+    box-shadow: none;
+    background-color: #f0f0f0;
+}
+
+.jp-InputPrompt {
+    text-align: left;
+}
+
+.jp-Notebook .jp-Cell .jp-OutputArea-child {
+    margin: 10px 0px;
+}
+
+.jp-OutputPrompt {
+    color: white;
+    left: -100px;
+}
+
+
+.jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr'] {
+    background: white;
+}
+
+
+.jp-Cell .jp-Cell-inputWrapper {
+    margin-top: 0px;
+}
+
+
+.jp-Notebook .jp-CodeCell > .jp-Cell-inputWrapper {
+    margin-right: 0em;
+}
