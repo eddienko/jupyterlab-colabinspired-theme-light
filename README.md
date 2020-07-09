@@ -1,5 +1,7 @@
 # @eddienko/jupyterlab-colabinspired-theme-light
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/eddienko/jupyterlab-colabinspired-codecellbtn/binder?urlpath=/lab/tree/demo/demo.ipynb)
+
 A JupyterLab theme extension inspired in Colab. The theme adds a drop shadow to the active cell.
 
 ![Cell Screenshot](screenshot.png)
